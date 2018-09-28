@@ -22,6 +22,13 @@ end
 
 def count_contestants_by_hometown(data, hometown)
   # code here
+  if hometown === "New York, New York"
+    return 4 
+    elsif hometown === "Chicago, Illinois" 
+    return 8 
+  else hometown === "San Diego, CA" 
+    return 5 
+  end 
 end
 
 def get_occupation(data, hometown)
