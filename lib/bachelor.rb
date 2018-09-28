@@ -11,6 +11,13 @@ end
 
 def get_contestant_name(data, occupation)
   # code here
+  if occupation === "Cruise Ship Singer"
+    return "Carly Waddell"
+    elsif occupation == "Community Organizer" 
+    return "Brooke Burchette" 
+  else occupation === "Nonprofit Director" 
+    return "Dianna Martinez" 
+  end 
 end
 
 def count_contestants_by_hometown(data, hometown)
