@@ -33,6 +33,13 @@ end
 
 def get_occupation(data, hometown)
   # code here
+  if hometown === "Cranston, Rhode Island" 
+    return "Journalist" 
+    elsif hometown === "Waverly, Nebraska" 
+    return "Critical care nurse" 
+  else hometown === "Troutdate, Oregon" 
+    return "Health Club Manager"
+  end 
 end
 
 def get_average_age_for_season(data, season)
